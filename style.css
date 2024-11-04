@@ -4,6 +4,8 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: black;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .header,
@@ -13,10 +15,24 @@ body {
     background-color: #1f2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero_main {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero .main_text {
@@ -29,6 +45,20 @@ a,
 .hero .secondary_text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    /* Update pic+info layout */
+}
+
+.pic_info {
+    display: flex;
 }
 
 .boxes_header {
@@ -47,17 +77,30 @@ a,
     font-style: italic;
     color: #1F2937;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote .byline {
     font-style: normal;
     font-size: 20px;
     font-weight: 700;
+    text-align: right;
 }
 
 .action {
     color: white;
     background-color: #3882F6;
+    margin: 50px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action_content {
+    display: flex;
+    flex-direction: column;
 }
 
 .action_title {
@@ -67,10 +110,6 @@ a,
 
 .action_info {
     font-size: 18px;
-}
-
-.content {
-
 }
 
 .footer {
@@ -89,6 +128,8 @@ button {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
