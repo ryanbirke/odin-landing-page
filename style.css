@@ -1,13 +1,96 @@
 /* Landing page styles */
 
 body {
-
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
 }
 
-.header {
+.header,
+.hero,
+.footer {
+    color: white;
+    background-color: #1f2937;
+}
 
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.hero .main_text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+a, 
+.hero .secondary_text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.boxes_header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200; /* what is light, under style? */
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+.quote .byline {
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.action {
+    color: white;
+    background-color: #3882F6;
+}
+
+.action_title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.action_info {
+    font-size: 18px;
 }
 
 .content {
-    
+
+}
+
+.footer {
+    font-size: 10px;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 6px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
