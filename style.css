@@ -171,3 +171,15 @@ a {
     color: gold;
     font-style: italic;
 }
+
+.hero_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.box_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
