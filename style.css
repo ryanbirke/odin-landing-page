@@ -106,13 +106,15 @@ a,
     margin: 50px 15%;
     padding: 25px 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 .modal {
     display: flex;
     justify-content: space-between;
+    flex-basis: 100%;
     padding: 20px;
 }
 
