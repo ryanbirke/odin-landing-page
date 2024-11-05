@@ -18,6 +18,8 @@ body {
 }
 
 .header {
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
     justify-content: space-between;
 }
@@ -32,11 +34,14 @@ body {
     display: flex;
     padding-top: 5%;
     padding-bottom: 5%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero_main {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .hero .main_text {
@@ -76,21 +81,25 @@ a,
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    margin-bottom: 40px;
 }
 
 .subtext {
     font-size: 18px;
+    margin-top: 10px;
 }
 
 .quote {
     font-size: 36px;
-    font-weight: 200; /* what is light, under style? */
+    font-weight: 1; /* what is light, under style? */
     font-style: italic;
     color: #1F2937;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 5% 24%;
+    padding: 5% 20%;
+    margin-top: 50px;
+    gap: 20px;
 }
 
 .quote .byline {
@@ -98,6 +107,7 @@ a,
     font-size: 20px;
     font-weight: 700;
     text-align: right;
+
 }
 
 .action {
@@ -149,6 +159,7 @@ button {
     font-weight: 600;
     border-radius: 12px;
     padding: 6px 24px;
+    max-width: 300px;
 }
 
 ul {
@@ -173,13 +184,16 @@ a {
 }
 
 .hero_img {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
+    margin: 40px;
 }
 
 .box_img {
     width: 150px;
     height: 150px;
     object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
 }
