@@ -159,8 +159,15 @@ ul {
 
 a {
     text-decoration: none;
+    margin: 10px 16px;
 }
 
 .modal button {
     border-color: white;
+}
+
+.emphasis {
+    font-weight: 600;
+    color: gold;
+    font-style: italic;
 }
